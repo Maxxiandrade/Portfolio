@@ -113,7 +113,7 @@ const Projects = () => {
     {/* Video container */}
     <div className="md:w-5/12 md:max-w h-64">
       <ReactPlayer
-        url="https://youtu.be/4hDpkdE2vzM"
+        url="https://youtu.be/MuDt6u0JVlo"
         width={"100%"}
         height={"100%"}
         controls={true}
@@ -168,13 +168,7 @@ const Projects = () => {
              <p className="font-semibold">Rick & Morty
               <span>
                   {" "}
-                  <a
-                    href="https://github.com/Maxxiandrade/ProyectoHenry"
-                    target="_blank"
-                  >
-                    {" "}
-                    <img src={github} alt="" className="h-6 mr-1 hover:scale-110 transition-transform" />
-                  </a>
+                  
                 </span>
               </p>
              
@@ -182,7 +176,7 @@ const Projects = () => {
     {/* Video container */}
     <div className="md:w-5/12 md:max-w h-64">
       <ReactPlayer
-        url="https://youtu.be/4hDpkdE2vzM"
+        url="https://youtu.be/Vv8e4urdZ_U"
         width={"100%"}
         height={"100%"}
         controls={true}

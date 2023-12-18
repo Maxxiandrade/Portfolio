@@ -4,15 +4,14 @@ import uparrow from "../../assets/uparrow.png";
 import { useState, useEffect } from "react";
 import validations from "./validations";
 import Swal from "sweetalert2";
+import axios from 'axios'
 
 const Contact = () => {
   const initialEmailState = {
     from: "",
-    to: "maxiandrade62@gmail.com",
     subject: "",
     text: "",
   };
-
   const [email, setEmail] = useState({ ...initialEmailState });
 
   const [errors, setErrors] = useState({
@@ -20,7 +19,6 @@ const Contact = () => {
     subject: "",
     text: "",
   });
-
   const isDisabled =
     errors.from ||
     errors.subject ||
@@ -41,20 +39,26 @@ const Contact = () => {
     setEmail({ ...email, [name]: value });
   };
 
-  const handleSubmit = () => {};
-  const clickeame = (e) => {
+  const clickeame = async(e) => {
     e.preventDefault();
     setEmail(initialEmailState);
     console.log(email);
-    Swal.fire({
-      title: "Thanks!",
-      text: `We'll be in contact`,
-      icon: "success",
-      confirmButtonText: `
-    <i class="fa fa-thumbs-up"></i> Great!
-  `,
-      confirmButtonAriaLabel: "Thumbs up, great!",
-    });
+    try {
+      Swal.fire({
+        title: "Thanks!",
+        text: `We'll be in contact`,
+        icon: "success",
+        confirmButtonText: `
+        <i class="fa fa-thumbs-up"></i> Great!
+        `,
+        confirmButtonAriaLabel: "Thumbs up, great!",
+      });
+      const response = await axios.post('http://localhost:3000/send', email);
+     
+    } catch (error) {
+      throw Error(error)
+    }
+    
   };
 
   const handleScroll = () => {
@@ -63,13 +67,15 @@ const Contact = () => {
       behavior: "smooth",
     });
   };
+
+  
   return (
     <>
     <div className="">
       {" "}
       {/* Div Contact*/}
       <h2 className="flex justify-center text-3xl">Get in touch</h2>
-      <form onSubmit={handleSubmit()}>
+      <form >
         <label class="block">
           <span class="block text-sm font-medium text-slate-700">From</span>
           <input
