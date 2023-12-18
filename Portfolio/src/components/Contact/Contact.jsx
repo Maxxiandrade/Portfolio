@@ -109,7 +109,7 @@ const Contact = () => {
             value={email.subject}
             onChange={handleChange}
             placeholder="Subject line that catches attention"
-            className="max-w-screen-md rounded-md w-80 text-center"
+            className="max-w-screen-md rounded-md w-full text-center"
             />
           {errors.subject !== "" && (
             <p className="text-red-600">{errors.subject}</p>
@@ -124,7 +124,7 @@ const Contact = () => {
             value={email.text}
             onChange={handleChange}
             placeholder="Tell me everything"
-            className="max-w-screen-md rounded-md w-96 h-28 placeholder:text-center resize-none"
+            className="max-w-screen-md rounded-md w-full h-28 placeholder:text-center resize-none"
             />
           {errors.text !== "" && <p className="text-red-600">{errors.text}</p>}
         </label>
