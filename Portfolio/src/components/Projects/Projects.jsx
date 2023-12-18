@@ -32,7 +32,7 @@ const Projects = () => {
                     target="_blank"
                   >
                     {" "}
-                    <img src={github} alt="" className="h-6 mr-1" />
+                    <img src={github} alt="" className="h-6 mr-1 hover:scale-110 transition-transform " />
                   </a>
                 </span>
               </p>
@@ -103,7 +103,7 @@ const Projects = () => {
                     target="_blank"
                   >
                     {" "}
-                    <img src={github} alt="" className="h-6 mr-1" />
+                    <img src={github} alt="" className="h-6 mr-1 hover:scale-110 transition-transform" />
                   </a>
                 </span>
                 </p>
@@ -166,7 +166,7 @@ const Projects = () => {
                     target="_blank"
                   >
                     {" "}
-                    <img src={github} alt="" className="h-6 mr-1" />
+                    <img src={github} alt="" className="h-6 mr-1 hover:scale-110 transition-transform" />
                   </a>
                 </span>
                 </p>

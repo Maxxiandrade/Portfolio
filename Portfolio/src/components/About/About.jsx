@@ -7,17 +7,17 @@ import github from "../../assets/github.svg";
 const About = () => {
     const dev = "<";
     const dev2 = "/>";
-    
+
   return (
     <div>
         {" "}
         {/* Div principal */}
         <br />
         <img
-          src={Maxi}
-          alt=""
-          className="rounded-full h-60 w-60 shadow-2xl object-cover ml-9 "
-        />
+  src={Maxi}
+  alt=""
+  className="rounded-full h-60 w-60 shadow-2xl object-cover ml-9 transition-transform duration-500 ease-in-out hover:scale-110"
+/>
         <h1 className="font-thin text-4xl"> Maximiliano Andrade.</h1>
         <h2 className="underline text-4xl">
           Fullstack <span className="text-blue-900 font-mono">developer.</span>
@@ -53,7 +53,7 @@ const About = () => {
             style={{ width: "70%", margin: "20px auto" }}
           />
           <h3 className="text-center text-md text-lg font-normal px-3">
-            I'm a <span className="text-blue-700 ">curious</span> web developer
+             <span className="text-blue-700 ">Curious</span> web developer
             who's <span className="underline">always</span> interested in
             expanding my knowledge,{" "}
             <span className="text-blue-700 ">learning</span> new things to apply
