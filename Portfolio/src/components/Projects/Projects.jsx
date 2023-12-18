@@ -37,18 +37,19 @@ const Projects = () => {
                 </span>
               </p>
               <br />
-              <div className="flex items-start ">
-                <div>
-
-                <ReactPlayer
-                  url="https://youtu.be/4hDpkdE2vzM"
-                  width={"100%"}
-                  height={"100%"}
-                  controls={true}
-                  volume={0.3}
-                  className='react-player'
-                  />
-                  </div>
+              <div className="flex flex-col-reverse lg:flex-row items-center ">
+    {/* Video container */}
+    <div className="md:w-5/12 md:max-w h-64">
+      <ReactPlayer
+        url="https://youtu.be/4hDpkdE2vzM"
+        width={"100%"}
+        height={"100%"}
+        controls={true}
+        volume={0.3}
+        className='react-player'
+      />
+    </div>
+    <div className="lg:w-1/2 lg:pl-5">
                 <span className="px-3">
                   {" "}
                   <p className="ml-1">
@@ -87,15 +88,15 @@ const Projects = () => {
                 </span>
               </div>
             </div>
-
+            </div>
             <hr
             className="my-4 border-gray-300"
             style={{ width: "5%", margin: "20px auto" }}
           />
             <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200">
               {" "}
-              {/* Henry Dogs */}
-              <p className="font-semibold">Henry Dogs
+             {/* Henry Dogs */}
+             <p className="font-semibold">Henry Dogs
               <span>
                   {" "}
                   <a
@@ -106,16 +107,21 @@ const Projects = () => {
                     <img src={github} alt="" className="h-6 mr-1 hover:scale-110 transition-transform" />
                   </a>
                 </span>
-                </p>
-              <br />
-              <div className="flex items-start">
-                <ReactPlayer
-                  url="https://youtu.be/4hDpkdE2vzM"
-                  width={"100%"}
-                  height={"100%"}
-                  controls={true}
-                  volume={0.3}
-                />
+              </p>
+              
+              <div className="flex flex-col-reverse lg:flex-row items-center ">
+    {/* Video container */}
+    <div className="md:w-5/12 md:max-w h-64">
+      <ReactPlayer
+        url="https://youtu.be/4hDpkdE2vzM"
+        width={"100%"}
+        height={"100%"}
+        controls={true}
+        volume={0.3}
+        className='react-player'
+      />
+    </div>
+    <div className="lg:w-1/2 lg:pl-5">
                 <span className="px-3">
                   {" "}
                   <p className="ml-1">
@@ -127,7 +133,7 @@ const Projects = () => {
                     The page also offers sorting and filtering functionalities that work for both the API-provided dogs and the custom breeds stored in the database
                   </p>
                   <span>
-                    <div className="flex justify-evenly">
+                    <div className="flex justify-evenly ">
                       <img
                         src={javascript}
                         alt="javascript icon"
@@ -143,7 +149,7 @@ const Projects = () => {
                       />
                       <img
                         src={postgres}
-                        alt="postgres icon"
+                        alt="firebase icon"
                         className="h-5 mr-1"
                       />
                     </div>
@@ -151,14 +157,15 @@ const Projects = () => {
                 </span>
               </div>
             </div>
+            </div>
             <hr
             className="my-4 border-gray-300"
             style={{ width: "5%", margin: "20px auto" }}
           />
-            <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200">
+          <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200">
               {" "}
-              {/* Rick & Morty */}
-              <p className="font-semibold">Rick & Morty
+             {/* Rick & Morty */}
+             <p className="font-semibold">Rick & Morty
               <span>
                   {" "}
                   <a
@@ -169,16 +176,21 @@ const Projects = () => {
                     <img src={github} alt="" className="h-6 mr-1 hover:scale-110 transition-transform" />
                   </a>
                 </span>
-                </p>
-              <br />
-              <div className="flex items-start">
-                <ReactPlayer
-                  url="https://youtu.be/4hDpkdE2vzM"
-                  width={"100%"}
-                  height={"100%"}
-                  controls={true}
-                  volume={0.3}
-                />
+              </p>
+             
+              <div className="flex flex-col-reverse lg:flex-row items-center ">
+    {/* Video container */}
+    <div className="md:w-5/12 md:max-w h-64">
+      <ReactPlayer
+        url="https://youtu.be/4hDpkdE2vzM"
+        width={"100%"}
+        height={"100%"}
+        controls={true}
+        volume={0.3}
+        className='react-player'
+      />
+    </div>
+    <div className="lg:w-1/2 lg:pl-5">
                 <span className="px-3">
                   {" "}
                   <p className="ml-1">
@@ -190,7 +202,7 @@ const Projects = () => {
                    as a model.
                   </p>
                   <span>
-                    <div className="flex justify-evenly">
+                    <div className="flex justify-evenly ">
                       <img
                         src={javascript}
                         alt="javascript icon"
@@ -206,7 +218,7 @@ const Projects = () => {
                       />
                       <img
                         src={postgres}
-                        alt="postgres icon"
+                        alt="firebase icon"
                         className="h-5 mr-1"
                       />
                     </div>
@@ -214,14 +226,18 @@ const Projects = () => {
                 </span>
               </div>
             </div>
+            </div>
             <hr
             className="my-4 border-gray-300"
             style={{ width: "5%", margin: "20px auto" }}
           />
+          
           </div>
+          
         </div>
     </>
   )
 }
 
 export default Projects
+
