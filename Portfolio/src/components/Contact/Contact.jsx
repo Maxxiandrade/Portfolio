@@ -55,7 +55,7 @@ const Contact = () => {
         `,
         confirmButtonAriaLabel: "Thumbs up, great!",
       });
-      const response = await axios.post(`${API_URL}/send`, email);
+      await axios.post(`${API_URL}/send`, email);
      
     } catch (error) {
       throw Error(error)
