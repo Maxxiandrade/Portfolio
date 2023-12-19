@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import validations from "./validations";
 import Swal from "sweetalert2";
 import axios from 'axios'
-export const API_URL = import.meta.env.MODE === 'development' ? 'http://localhost:3001' : 'https://eng-partner-v2-server.vercel.app';
+export const API_URL = import.meta.env.MODE === 'development' ? 'http://localhost:3000' : 'https://maxi-andrade-portfolio-server.vercel.app';
 
 const Contact = () => {
   
