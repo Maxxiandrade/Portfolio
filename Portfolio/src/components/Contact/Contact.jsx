@@ -85,7 +85,7 @@ const Contact = () => {
             value={email.from}
             onChange={handleChange}
             placeholder="your@email.com"
-            className={`rounded-md text-center w-60`}
+            className={`max-w-screen-md rounded-md w-full text-center`}
             />
           {errors.from !== "" && <p className="text-red-600">{errors.from}</p>}
         </label>
@@ -97,7 +97,7 @@ const Contact = () => {
             name="to"
             value="maxiandrade62@gmail.com"
             readOnly
-            className="placeholder-slate-500 rounded-md text-center w-60 cursor-not-allowed"
+            className="placeholder-slate-500 max-w-screen-md rounded-md w-full text-center cursor-not-allowed"
             />
         </label>
         <label class="block">
