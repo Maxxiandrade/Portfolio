@@ -5,8 +5,10 @@ import { useState, useEffect } from "react";
 import validations from "./validations";
 import Swal from "sweetalert2";
 import axios from 'axios'
+export const API_URL = import.meta.env.MODE === 'development' ? 'http://localhost:3001' : 'https://eng-partner-v2-server.vercel.app';
 
 const Contact = () => {
+  
   const initialEmailState = {
     from: "",
     subject: "",
@@ -53,7 +55,7 @@ const Contact = () => {
         `,
         confirmButtonAriaLabel: "Thumbs up, great!",
       });
-      const response = await axios.post('http://localhost:3000/send', email);
+      const response = await axios.post(`${API_URL}/send`, email);
      
     } catch (error) {
       throw Error(error)
