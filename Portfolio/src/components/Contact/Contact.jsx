@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import validations from "./validations";
 import Swal from "sweetalert2";
 import axios from 'axios'
-export const API_URL = import.meta.env.MODE === 'development' ? 'http://localhost:3000' : 'https://portfolio-one-dun-18.vercel.app/';
+export const API_URL = import.meta.env.MODE === 'development' ? 'http://localhost:3000' : 'https://portfolio-back-opal.vercel.app';
 
 const Contact = () => {
   
