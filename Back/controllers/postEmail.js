@@ -24,7 +24,7 @@ const postEmail = async(req,res)=>{
         const transport = nodemailer.createTransport(config)
     
         const info = await transport.sendMail(mensaje)
-        res.status(200).json(info)
+        res.status(200).send("peticion /send recibida correctamente")
     } catch (error) {
         res.status(400).json({error:error})
     }
