@@ -28,7 +28,7 @@ const Projects = () => {
               {" "}
               {/* AthleteX*/}
               <p className="font-semibold">
-                AthleteX{" "}
+                AthletiX{" "}
                 <span>
                   {" "}
                   <div className="flex">
