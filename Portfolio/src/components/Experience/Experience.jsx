@@ -11,13 +11,39 @@ const Experience = () => {
             <p className="text-left font-bold text-lg">Experience:</p>
             <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200">
               <p className="font-semibold text-left">
-                Fullstack Teaching Assistant.{" "}
-                <span className="font-thin">Oct 2023 - Dec 2023</span>{" "}
+                -AI Training.{" "}
+                <span className="font-thin">Jan. 2024 - Mar. 2024</span>{" "}
+              </p>
+             
+              <p className="text-left">
+                AI Training at Scale AI.
               </p>
               <br />
+              <p className="text-left">- Main tasks:</p>
+
+              <ul className="text-left px-2">
+                <li>
+                  • Utilize skills in React, JavaScript, and other technologies to train artificial intelligence systems.
+                </li>
+                <li>
+                  • Correct errors, debug code, and enhance the efficiency of the AI system to ensure its quality and accuracy.
+                </li>
+                <li>
+                  • Contribute to ensuring the quality and accuracy of AI training to enhance the end-user experience.
+                </li>
+              </ul>
+            </div>
+            <br />
+            <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200">
+              <p className="font-semibold text-left">
+                -Fullstack Teaching Assistant.{" "}
+                <span className="font-thin">Oct. 2023 - Dec. 2023</span>{" "}
+              </p>
+              
               <p className="text-left">
                 Teaching Assistant (TA) for students at Henry Bootcamp.
               </p>
+              <br />
               <p className="text-left">- Main tasks:</p>
 
               <ul className="text-left px-2">

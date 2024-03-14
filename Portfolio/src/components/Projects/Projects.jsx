@@ -1,4 +1,3 @@
-import React from 'react'
 import github from "../../assets/github.svg";
 import coding from "../../assets/coding.png";
 import ReactPlayer from "react-player/youtube";
@@ -9,6 +8,11 @@ import firebase from "../../assets/firebase.png";
 import javascript from "../../assets/javascript.svg";
 import redux from "../../assets/redux.png";
 import postgres from "../../assets/postgres.png";
+import snake from "../../../public/rxaction.gif"
+import html from "../../assets/html.png"
+import css from "../../assets/css.png"
+import external from "../../assets/external.svg"
+
 
 const Projects = () => {
   return (
@@ -19,8 +23,148 @@ const Projects = () => {
           <img src={coding} alt="coding.png" className="h-8" />
           <div className="ml-3 text-left">
             <p className="text-left font-bold text-lg">Projects:</p>
-            
-            <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200">
+            {/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */}
+            <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200"> {/* AthleteX */}
+              {" "}
+              {/* AthleteX*/}
+              <p className="font-semibold">
+                AthleteX{" "}
+                <span>
+                  {" "}
+                  <div className="flex">
+
+                  <a
+                    href="https://github.com/Maxxiandrade/AthleteX"
+                    target="_blank"
+                    >
+                    
+                    {" "}
+                    <img src={github} alt="" className="h-6 mr-1 hover:scale-110 transition-transform " />
+                  </a>
+                  <a href="https://athlete-x-rho.vercel.app/" target="_blank">
+                    <img src={external} alt="" className="h-7 mr-1 hover:scale-110 transition-transform " />
+                    </a>
+                    </div>
+
+                </span>
+              </p>
+              <br />
+              <div className="flex flex-col-reverse lg:flex-row items-center ">
+    {/* Video container */}
+    <div className="md:w-5/12 md:max-w h-64">
+      <ReactPlayer
+        url="https://youtu.be/PUB4x_phtE0"
+        width={"100%"}
+        height={"100%"}
+        controls={true}
+        volume={0.3}
+        className='react-player'
+      />
+    </div>
+    <div className="lg:w-1/2 lg:pl-5">
+                <span className="px-3">
+                  {" "}
+                  <p className="ml-1">
+                  Athletix is an exciting e-commerce project that caters to athletes and sports enthusiasts alike, offering a comprehensive range of high-quality sport gear and 
+                  equipment. With a focus on providing top-notch products from renowned brands, Athletix aims to be the go-to destination for athletes of all levels looking to elevate 
+                  their performance and achieve their fitness goals.
+                  </p>
+                  <p>
+                  Through our user-friendly platform, customers can easily browse and purchase athletic apparel, equipment, and accessories tailored to their specific sport or activity. 
+                  With detailed product descriptions, Athletix ensures that shoppers can make informed decisions while shopping online.
+                  </p>
+                  <span>
+                    <div className="flex justify-evenly ">
+                      <img
+                        src={javascript}
+                        alt="javascript icon"
+                        className="h-5 mr-1"
+                      />
+                      <img src={react} alt="react icon" className="h-5 mr-1" />
+                      <img src={redux} alt="redux icon" className="h-5 mr-1" />
+                      <img src={node} alt="node icon" className="h-5 mr-1" />
+                      <img
+                        src={express}
+                        alt="express icon"
+                        className="h-5 mr-1"
+                      />
+                      <img
+                        src={firebase}
+                        alt="firebase icon"
+                        className="h-5 mr-1"
+                      />
+                    </div>
+                  </span>
+                </span>
+              </div>
+            </div>
+            </div>
+            <hr
+            className="my-4 border-gray-300"
+            style={{ width: "5%", margin: "20px auto" }}
+          />
+          {/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */}
+          <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200"> {/* Snake Game */}
+              {" "}
+              {/* AthleteX*/}
+              <p className="font-semibold">
+                Snake Game
+                <span>
+                  {" "}
+                  <a
+                    href="https://github.com/Maxxiandrade/snake-js"
+                    target="_blank"
+                  >
+                    {" "}
+                    <div className="flex">
+                    <img src={github} alt="" className="h-6 mr-1 hover:scale-110 transition-transform " />
+                    <a href="https://snake-js-coral.vercel.app" target="_blank">
+                    <img src={external} alt="" className="h-7 mr-1 hover:scale-110 transition-transform " />
+                    </a>
+                    </div>
+                  </a>
+                </span>
+              </p>
+              <br />
+              <div className="flex flex-col-reverse lg:flex-row items-center ">
+    {/* Video container */}
+    <div className="md:w-5/12 md:max-w h-64">
+      <img src={snake} alt="snake_gif" className="h-72 w-11/12" />
+  
+    </div>
+    <div className="lg:w-1/2 lg:pl-5">
+                <span className="px-3">
+                  {" "}
+                  <p className="ml-1">
+                  "Snake Game" is a classic arcade game where players control a snake that grows in length as it consumes food pellets, 
+                  while avoiding collisions with walls and its own tail. In this timeless game, the player's objective is to achieve the highest score possible by guiding 
+                  the snake to consume as much food as it can without crashing into obstacles.
+
+                  This project was not only an opportunity to recreate a beloved retro game but also served as my inaugural venture into working with matrices. 
+                  Through this experience, I gained valuable insights into handling multidimensional arrays and optimizing game logic for enhanced performance.
+                  </p>
+                  <span>
+                    <div className="flex justify-evenly ">
+                      <img src={html} alt="react icon" className="h-5 mr-1" />
+                      <img
+                        src={javascript}
+                        alt="javascript icon"
+                        className="h-5 mr-1"
+                      />
+                      <img src={css} alt="redux icon" className="h-5 mr-1" />
+                      
+                    </div>
+                  </span>
+                </span>
+              </div>
+            </div>
+            </div>
+            <hr
+            className="my-4 border-gray-300"
+            style={{ width: "5%", margin: "20px auto" }}
+          />
+          {/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */}
+            <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200"> {/* Eng Partner */}
               {" "}
               {/* Eng Partner*/}
               <p className="font-semibold">
@@ -32,7 +176,12 @@ const Projects = () => {
                     target="_blank"
                   >
                     {" "}
+                    <div className="flex">
                     <img src={github} alt="" className="h-6 mr-1 hover:scale-110 transition-transform " />
+                    <a href="https://engpartner-aa0ce.firebaseapp.com/" target="_blank">
+                    <img src={external} alt="" className="h-7 mr-1 hover:scale-110 transition-transform " />
+                    </a>
+                    </div>
                   </a>
                 </span>
               </p>
@@ -93,7 +242,8 @@ const Projects = () => {
             className="my-4 border-gray-300"
             style={{ width: "5%", margin: "20px auto" }}
           />
-            <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200">
+          {/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */}
+            <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200"> {/*¨Henry Dogs */}
               {" "}
              {/* Henry Dogs */}
              <p className="font-semibold">Henry Dogs
@@ -162,7 +312,8 @@ const Projects = () => {
             className="my-4 border-gray-300"
             style={{ width: "5%", margin: "20px auto" }}
           />
-          <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200">
+          {/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */}
+          <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200"> {/* Rick & Morty */}
               {" "}
              {/* Rick & Morty */}
              <p className="font-semibold">Rick & Morty
@@ -225,7 +376,6 @@ const Projects = () => {
             className="my-4 border-gray-300"
             style={{ width: "5%", margin: "20px auto" }}
           />
-          
           </div>
           
         </div>
