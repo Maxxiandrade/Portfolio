@@ -1,4 +1,4 @@
-import React from "react";
+
 import send from "../../assets/send-mail.svg";
 import uparrow from "../../assets/uparrow.png";
 import { useState, useEffect } from "react";
@@ -8,7 +8,8 @@ import axios from 'axios'
 export const API_URL = import.meta.env.MODE === 'development' ? 'http://localhost:3000' : 'https://portfolio-back-opal.vercel.app';
 
 const Contact = () => {
-  
+
+
   const initialEmailState = {
     from: "",
     subject: "",

@@ -12,7 +12,7 @@ import snake from "../../../public/rxaction.gif"
 import html from "../../assets/html.png"
 import css from "../../assets/css.png"
 import external from "../../assets/external.svg"
-
+import typescript from "../../assets/typescript.png"
 
 const Projects = () => {
   return (
@@ -23,6 +23,76 @@ const Projects = () => {
           <img src={coding} alt="coding.png" className="h-8" />
           <div className="ml-3 text-left">
             <p className="text-left font-bold text-lg">Projects:</p>
+            {/*------------------------------------------------------------------------------------------------------------------------------------------------------*/}
+            <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200"> {/* cloudKast */}
+              {" "}
+              {/* cloudKast*/}
+              <p className="font-semibold">
+                cloudKast{" "}
+                <span>
+                  {" "}
+                  <div className="flex">
+
+                  <a
+                    href="https://github.com/Maxxiandrade/cloudkast"
+                    target="_blank"
+                    >
+                    
+                    {" "}
+                    <img src={github} alt="" className="h-6 mr-1 hover:scale-110 transition-transform " />
+                  </a>
+                  <a href="https://cloudkast.vercel.app/landing" target="_blank">
+                    <img src={external} alt="" className="h-7 mr-1 hover:scale-110 transition-transform " />
+                    </a>
+                    </div>
+
+                </span>
+              </p>
+              <br />
+              <div className="flex flex-col-reverse lg:flex-row items-center ">
+    {/* Video container */}
+    <div className="md:w-5/12 md:max-w h-64">
+      <ReactPlayer
+        url="https://youtu.be/_czHE4f1Zao"
+        width={"100%"}
+        height={"100%"}
+        controls={true}
+        volume={0.3}
+        className='react-player'
+      />
+    </div>
+    <div className="lg:w-1/2 lg:pl-5">
+                <span className="px-3">
+                  {" "}
+                  <p className="ml-1">
+                  cloudKast is a user-friendly weather web application designed to provide you with up-to-date weather information for any city in the world. 
+                  </p>
+                  <p className="font-semibold">Key Features:</p>
+                  <p>
+&bull; Current Weather Data: Obtain accurate and real-time weather updates for any city worldwide. From temperature readings to wind speeds.
+<br />
+&bull; Customizable Temperature Units: Tailor your weather experience by choosing between Celsius and Fahrenheit temperature units.
+<br />
+&bull; Hourly Weather Schedule: Stay informed about the day's weather forecast with an hourly breakdown of climate conditions.
+<br />
+&bull; Astro Information: Explore more than just weather data with cloudKast's astro information feature. Discover the sunrise and sunset times, moon phases, and other celestial events relevant to your location. 
+                  </p>
+                  <span>
+                    <div className="flex justify-evenly ">
+                      <img src={react} alt="react icon" className="h-5 mr-1" />
+                      <img src={typescript} alt="typescript icon" className="h-5 mr-1 rounded-sm" />
+                      <img src={css} alt="css icon" className="h-5 mr-1" />
+                      
+                    </div>
+                  </span>
+                </span>
+              </div>
+            </div>
+            </div>
+            <hr
+            className="my-4 border-gray-300"
+            style={{ width: "5%", margin: "20px auto" }}
+          />
             {/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */}
             <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200"> {/* AthleteX */}
               {" "}
