@@ -12,7 +12,7 @@ const Experience = () => {
             <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200">
               <p className="font-semibold text-left">
                 -AI Training.{" "}
-                <span className="font-thin">Jan. 2024 - Mar. 2024</span>{" "}
+                <span className="font-thin">Jan. 2024 - Jun. 2024</span>{" "}
               </p>
              
               <p className="text-left">

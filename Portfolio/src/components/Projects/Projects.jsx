@@ -29,6 +29,74 @@ const Projects = () => {
             {" "}
             {/* Planify */} {/* Planify*/}
             <p className="font-semibold">
+              Easy Tailwind{" "}
+              <span>
+                {" "}
+                <div className="flex">
+                  <a
+                    href="https://github.com/Maxxiandrade/easytailwind"
+                    target="_blank"
+                  >
+                    {" "}
+                    <img
+                      src={github}
+                      alt=""
+                      className="h-6 mr-1 hover:scale-110 transition-transform "
+                    />
+                  </a>
+                  <a href="https://easytailwind-xi.vercel.app" target="_blank">
+                    <img
+                      src={external}
+                      alt=""
+                      className="h-7 mr-1 hover:scale-110 transition-transform "
+                    />
+                  </a>
+                </div>
+              </span>
+            </p>
+            <br />
+            <div className="flex flex-col-reverse lg:flex-row items-center ">
+              {/* Video container */}
+              <div className="md:w-5/12 md:max-w h-64">
+                <ReactPlayer
+                  url="https://youtu.be/lEzokGxQ_e8"
+                  width={"100%"}
+                  height={"100%"}
+                  controls={true}
+                  volume={0.3}
+                  className="react-player"
+                />
+              </div>
+              <div className="lg:w-1/2 lg:pl-5">
+                <span className="px-3">
+                  {" "}
+                  <p>Easy Tailwind is a tool that created in order to speed up the creation of different Tailwind CSS components through a customization panel, and with a real-time preview! </p>
+                  <span>
+                    <div className="flex justify-evenly ">
+                      <img src={react} alt="react icon" className="h-5 mr-1" />
+                      <img
+                        src={typescript}
+                        alt="typescript icon"
+                        className="h-5 mr-1 rounded-sm"
+                      />
+                     
+                    </div>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <hr
+            className="my-4 border-gray-300"
+            style={{ width: "5%", margin: "20px auto" }}
+          />
+
+          {/*------------------------------------------------------------------------------------------------------------------------------------------------------*/}
+          {/*----------------------------------------------------------------------------------------------------------------------------------------*/}
+          <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200">
+            {" "}
+            {/* Planify */} {/* Planify*/}
+            <p className="font-semibold">
               Planify{" "}
               <span>
                 {" "}

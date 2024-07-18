@@ -16,7 +16,7 @@ const About = () => {
         <img
   src={Maxi}
   alt=""
-  className="rounded-full h-60 w-60 shadow-2xl object-cover ml-9 transition-transform duration-500 ease-in-out hover:scale-110"
+  className="rounded-full h-64 w-64 shadow-2xl object-cover ml-9 transition-transform duration-500 ease-in-out hover:scale-110"
 />
         <h1 className="font-thin text-4xl"> Maximiliano Andrade.</h1>
         <h2 className="underline text-4xl">
