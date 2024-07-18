@@ -18,6 +18,9 @@ const Experience = () => {
               <p className="text-left">
                 AI Training at Scale AI.
               </p>
+              <p className='text-left'>
+              Worked in coding projects for important clients contributing to the training of LLMs
+              </p>
               <br />
               <p className="text-left">- Main tasks:</p>
 

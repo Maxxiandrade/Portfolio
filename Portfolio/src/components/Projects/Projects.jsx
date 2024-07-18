@@ -194,7 +194,6 @@ const Projects = () => {
                 </div>
               </span>
             </p>
-            <br />
             <div className="flex flex-col-reverse lg:flex-row items-center ">
               {/* Video container */}
               <div className="md:w-5/12 md:max-w h-64">
@@ -346,77 +345,7 @@ const Projects = () => {
             style={{ width: "5%", margin: "20px auto" }}
           />
           {/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */}
-          <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200">
-            {" "}
-            {/* Snake Game */} {/* AthleteX*/}
-            <p className="font-semibold">
-              Snake Game
-              <span>
-                {" "}
-                <a
-                  href="https://github.com/Maxxiandrade/snake-js"
-                  target="_blank"
-                >
-                  {" "}
-                  <div className="flex">
-                    <img
-                      src={github}
-                      alt=""
-                      className="h-6 mr-1 hover:scale-110 transition-transform "
-                    />
-                    <a href="https://snake-js-coral.vercel.app" target="_blank">
-                      <img
-                        src={external}
-                        alt=""
-                        className="h-7 mr-1 hover:scale-110 transition-transform "
-                      />
-                    </a>
-                  </div>
-                </a>
-              </span>
-            </p>
-            <br />
-            <div className="flex flex-col-reverse lg:flex-row items-center ">
-              {/* Video container */}
-              <div className="md:w-5/12 md:max-w h-64">
-                <img src={snake} alt="snake_gif" className="h-72 w-11/12" />
-              </div>
-              <div className="lg:w-1/2 lg:pl-5">
-                <span className="px-3">
-                  {" "}
-                  <p className="ml-1">
-                    "Snake Game" is a classic arcade game where players control
-                    a snake that grows in length as it consumes food pellets,
-                    while avoiding collisions with walls and its own tail. In
-                    this timeless game, the player's objective is to achieve the
-                    highest score possible by guiding the snake to consume as
-                    much food as it can without crashing into obstacles. This
-                    project was not only an opportunity to recreate a beloved
-                    retro game but also served as my inaugural venture into
-                    working with matrices. Through this experience, I gained
-                    valuable insights into handling multidimensional arrays and
-                    optimizing game logic for enhanced performance.
-                  </p>
-                  <span>
-                    <div className="flex justify-evenly ">
-                      <img src={html} alt="react icon" className="h-5 mr-1" />
-                      <img
-                        src={javascript}
-                        alt="javascript icon"
-                        className="h-5 mr-1"
-                      />
-                      <img src={css} alt="redux icon" className="h-5 mr-1" />
-                    </div>
-                  </span>
-                </span>
-              </div>
-            </div>
-          </div>
-          <hr
-            className="my-4 border-gray-300"
-            style={{ width: "5%", margin: "20px auto" }}
-          />
-          {/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */}
+         
           <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200">
             {" "}
             {/* Eng Partner */} {/* Eng Partner*/}
