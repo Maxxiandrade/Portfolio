@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Maxi from "../../assets/Maxi.jpeg";
 import download from "../../assets/download.svg";
 import linkedin from "../../assets/linkedin.svg";
@@ -26,6 +26,7 @@ const About = () => {
         <a
           href="https://www.linkedin.com/in/maximiliano-andrade-8ab0b6213/"
           target="_blank"
+          rel='noreferrer'
         >
           <span className="text-4xl font-thin">{dev}</span>
 
@@ -33,7 +34,7 @@ const About = () => {
             <img src={linkedin} alt="" className="h-7 mr-2 " />
           </button>
         </a>
-        <a href="https://github.com/Maxxiandrade" target="_blank">
+        <a href="https://github.com/Maxxiandrade" target="_blank" rel='noreferrer'>
           <button className="rounded-md text-stone-950 text-sm px-1 inline-flex items-center font  hover:scale-110 transition-transform py-1">
             <img src={github} alt="" className="h-7 mr-2" />
           </button>
@@ -54,7 +55,7 @@ const About = () => {
           />
           <h3 className="text-center text-md text-lg font-normal px-3">
              <span className="text-blue-700 ">Curious</span> web developer
-            who's <span className="underline">always</span> interested in
+            who&apos;s <span className="underline">always</span> interested in
             expanding my knowledge,{" "}
             <span className="text-blue-700 ">learning</span> new things to apply
             it to projects or ideas.

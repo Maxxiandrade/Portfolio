@@ -8,8 +8,6 @@ import firebase from "../../assets/firebase.png";
 import javascript from "../../assets/javascript.svg";
 import redux from "../../assets/redux.png";
 import postgres from "../../assets/postgres.png";
-import snake from "../../../public/rxaction.gif";
-import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import external from "../../assets/external.svg";
 import typescript from "../../assets/typescript.png";
@@ -36,6 +34,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/Maxxiandrade/easytailwind"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {" "}
                     <img
@@ -44,7 +43,7 @@ const Projects = () => {
                       className="h-6 mr-1 hover:scale-110 transition-transform "
                     />
                   </a>
-                  <a href="https://easytailwind-xi.vercel.app" target="_blank">
+                  <a href="https://easytailwind-xi.vercel.app" target="_blank" rel="noreferrer">
                     <img
                       src={external}
                       alt=""
@@ -104,6 +103,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/Maxxiandrade/planify"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {" "}
                     <img
@@ -112,7 +112,7 @@ const Projects = () => {
                       className="h-6 mr-1 hover:scale-110 transition-transform "
                     />
                   </a>
-                  <a href="https://planify-seven.vercel.app" target="_blank">
+                  <a href="https://planify-seven.vercel.app" target="_blank" rel="noreferrer">
                     <img
                       src={external}
                       alt=""
@@ -173,6 +173,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/Maxxiandrade/cloudkast"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {" "}
                     <img
@@ -184,6 +185,7 @@ const Projects = () => {
                   <a
                     href="https://cloudkast.vercel.app/landing"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <img
                       src={external}
@@ -225,11 +227,11 @@ const Projects = () => {
                     temperature units.
                     <br />
                     &bull; Hourly Weather Schedule: Stay informed about the
-                    day's weather forecast with an hourly breakdown of climate
+                    day&apos;s weather forecast with an hourly breakdown of climate
                     conditions.
                     <br />
                     &bull; Astro Information: Explore more than just weather
-                    data with cloudKast's astro information feature. Discover
+                    data with cloudKast&apos;s astro information feature. Discover
                     the sunrise and sunset times, moon phases, and other
                     celestial events relevant to your location.
                   </p>
@@ -264,6 +266,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/Maxxiandrade/AthleteX"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {" "}
                     <img
@@ -272,7 +275,7 @@ const Projects = () => {
                       className="h-6 mr-1 hover:scale-110 transition-transform "
                     />
                   </a>
-                  <a href="https://athlete-x-rho.vercel.app/" target="_blank">
+                  <a href="https://athlete-x-rho.vercel.app/" target="_blank" rel="noreferrer">
                     <img
                       src={external}
                       alt=""
@@ -356,6 +359,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/Maxxiandrade/EngPartnerV2"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   {" "}
                   <div className="flex">
@@ -367,6 +371,7 @@ const Projects = () => {
                     <a
                       href="https://engpartner-aa0ce.firebaseapp.com/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <img
                         src={external}
@@ -446,6 +451,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/Maxxiandrade/ProyectoHenry"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   {" "}
                   <img
@@ -480,7 +486,7 @@ const Projects = () => {
                     This project marked my first independent endeavor, starting
                     entirely from scratch. With just two months of bootcamp
                     knowledge, I built this project. Implementing pagination
-                    posed a challenge as it wasn't part of the program. However,
+                    posed a challenge as it wasn&apos;t part of the program. However,
                     I conducted research and successfully implemented this
                     feature. The page also offers sorting and filtering
                     functionalities that work for both the API-provided dogs and
@@ -544,8 +550,8 @@ const Projects = () => {
                     technologies learned during the bootcamp. Its objective was
                     to merge various technologies into a single project.
                     <br />
-                    It's a rather simple application that retrieves characters
-                    from the 'Rick and Morty' series, allowing users to search
+                    It&apos;s a rather simple application that retrieves characters
+                    from the &apos;Rick and Morty&apos; series, allowing users to search
                     and view detailed information about any of the 600+
                     characters. On the backend, I fetched data from an API,
                     developing routes, controllers, and handlers. On the

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import work from "../../assets/work.png";
 const Experience = () => {
   return (
