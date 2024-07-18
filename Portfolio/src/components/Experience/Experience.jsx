@@ -11,7 +11,7 @@ const Experience = () => {
             <p className="text-left font-bold text-lg">Experience:</p>
             <div className="transition duration-500 ease-in-out transform hover:translate-x-5 opacity-200">
               <p className="font-semibold text-left">
-                -AI Training.{" "}
+                -AI Trainer.{" "}
                 <span className="font-thin">Jan. 2024 - Jun. 2024</span>{" "}
               </p>
              
@@ -26,7 +26,7 @@ const Experience = () => {
 
               <ul className="text-left px-2">
                 <li>
-                  • Utilize skills in React, JavaScript, and other technologies to train artificial intelligence systems.
+                  • Utilize skills in JavaScript, React, Express and many other technologies to train artificial large language models.
                 </li>
                 <li>
                   • Correct errors, debug code, and enhance the efficiency of the AI system to ensure its quality and accuracy.
